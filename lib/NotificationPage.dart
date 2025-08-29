@@ -55,7 +55,7 @@ class _NotificationPageState extends State<NotificationPage> {
     }
   }
 
-  // put this INSIDE the State class so onTap can call it
+
   void _showNotificationDetails(BuildContext context, Map<String, dynamic> item) {
     showDialog(
       context: context,
