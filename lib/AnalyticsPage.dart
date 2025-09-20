@@ -25,11 +25,11 @@ class AnalyticsPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Text(
+            Text(
               'Overview',
               style: TextStyle(
                 fontSize: 22,
-                fontWeight: FontWeight.bold,
+               // fontWeight: FontWeight.boldcmdcc
               ),
             ),
             const SizedBox(height: 24),
